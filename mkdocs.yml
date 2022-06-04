@@ -40,5 +40,8 @@ plugins:
             show_source: false
       custom_templates: templates
 nav:
-  - Home: "index.md"
-  - Changelog: "CHANGELOG.md"
+  - Home:
+    - Bold Best Practice:
+      - 1 Ad hoc scripts: "1_adhocscripts.md"
+      - 2 Clear layout structure: "2_clear_layout_structure.md"
+      - 3 Coding standards: "3_coding_standards.md"
