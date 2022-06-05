@@ -4,7 +4,7 @@ repo_url:
 docs_dir: "docs"
 markdown_extensions:
 theme:
-  name: "litera"
+  name: "material"
   highlightjs: true
   include_sidebar: true
   features:
