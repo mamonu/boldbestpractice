@@ -13,6 +13,7 @@ plugins:
   - search
   - mknotebooks
 nav:
-  - 1 Ad hoc scripts: "1_adhocscripts.md"
-  - 2 Clear layout structure: "2_clear_layout_structure.md"
-  - 3 Coding standards: "3_coding_standards.md"
+  - Home: "index.md" 
+  - 1 Ad hoc scripts: "docs/1_adhocscripts.md"
+  - 2 Clear layout structure: "docs/2_clear_layout_structure.md"
+  - 3 Coding standards: "docs/3_coding_standards.md"
