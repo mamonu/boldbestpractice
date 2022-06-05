@@ -15,7 +15,6 @@ theme:
     - search.suggest 
 plugins:
   - search
-  - semiliterate
   - mknotebooks
   - mkdocstrings:
       default_handler: python
