@@ -7,11 +7,6 @@ markdown_extensions:
 theme:
   name: "litera"
   features:
-    - content.code.annotate
-    - content.tabs.link
-    - header.autohide
-    - search.highlight
-    - search.share
     - search.suggest 
 plugins:
   - search
