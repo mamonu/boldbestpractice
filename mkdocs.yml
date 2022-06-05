@@ -5,7 +5,7 @@ markdown_extensions:
   - toc:
       permalink: True
 theme:
-  name: "cerulean"
+  name: "litera"
   features:
     - content.code.annotate
     - content.tabs.link
@@ -17,7 +17,7 @@ plugins:
   - search
   - mknotebooks
 nav:
-  - BOLD Best Practice:
+  - Home:
     - 1 Ad hoc scripts: "1_adhocscripts.md"
     - 2 Clear layout structure: "2_clear_layout_structure.md"
     - 3 Coding standards: "3_coding_standards.md"
