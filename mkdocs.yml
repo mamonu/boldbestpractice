@@ -1,4 +1,4 @@
-site_name: Bold Best Practice
+site_name: BOLD Best Practice
 use_directory_urls: false
 repo_url:
 markdown_extensions:
@@ -24,8 +24,7 @@ plugins:
             show_source: false
       custom_templates: templates
 nav:
-  - Home:
-    - Bold Best Practice:
-      - 1 Ad hoc scripts: "1_adhocscripts.md"
-      - 2 Clear layout structure: "2_clear_layout_structure.md"
-      - 3 Coding standards: "3_coding_standards.md"
+  - BOLD Best Practice:
+    - 1 Ad hoc scripts: "1_adhocscripts.md"
+    - 2 Clear layout structure: "2_clear_layout_structure.md"
+    - 3 Coding standards: "3_coding_standards.md"
