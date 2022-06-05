@@ -16,13 +16,6 @@ theme:
 plugins:
   - search
   - mknotebooks
-  - mkdocstrings:
-      default_handler: python
-      handlers:
-        python:
-          rendering:
-            show_source: false
-      custom_templates: templates
 nav:
   - BOLD Best Practice:
     - 1 Ad hoc scripts: "1_adhocscripts.md"
