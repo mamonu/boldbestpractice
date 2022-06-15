@@ -8,7 +8,7 @@ plugins:
   - search
   - mknotebooks
 nav:
-  - Home: "../README.md" 
+  - Home: "index.md" 
   - 1 Ad hoc scripts: "1_adhocscripts.md"
   - 2 Clear layout structure: "2_clear_layout_structure.md"
   - 3 Coding standards: "3_coding_standards.md"
