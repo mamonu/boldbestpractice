@@ -4,8 +4,6 @@ repo_url:
 markdown_extensions:
 theme:
   name: "material"
-  features:
-    - search.suggest 
 plugins:
   - search
   - mknotebooks
