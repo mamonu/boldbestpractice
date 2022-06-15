@@ -12,3 +12,12 @@ nav:
   - 1 Ad hoc scripts: "1_adhocscripts.md"
   - 2 Clear layout structure: "2_clear_layout_structure.md"
   - 3 Coding standards: "3_coding_standards.md"
+  - 4 Version Control: "4_version_control.md"
+  - 5 Reproducible and Reusable work: ""5_version_control.md"
+  - 6 QA and Testing: "6_QA_testing.md"
+  - Appendix:
+    - Org Infrastructure:
+      - MOJ:
+      - DHSC:
+      - ONS:
+      
