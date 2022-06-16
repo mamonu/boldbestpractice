@@ -7,6 +7,8 @@ markdown_extensions:
   - meta
   - admonition
   - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true 
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.snippets:
