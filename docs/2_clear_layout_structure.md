@@ -15,6 +15,14 @@ about the project in hand. Perhaps also the set of commands needed to run an ana
 
 ## Use meaningful folder/file names 
 
+A well-defined, standard project structure means that a newcomer can begin to understand an analysis without digging in to extensive documentation. It also means that they don't necessarily have to read 100% of the code before knowing where to look for very specific things.
+
+Well organized code tends to be self-documenting in that the organization itself provides context for your code without much overhead. People will thank you for this because they can:
+
+Collaborate more easily with you on this analysis
+Learn from your analysis about the process and the domain
+Feel confident in the conclusions at which the analysis arrives
+
 A very detailed example of how a project could look (example for a Python project)
 ```
 ├── LICENSE
@@ -61,10 +69,20 @@ A very detailed example of how a project could look (example for a Python projec
 ```
 
 
-There is a project that creates a folder structure example: COOKIECUTTER 
-https://drivendata.github.io/cookiecutter-data-science/
-No need to be as thorough though.
+### Proposed Python helper
 
-Similar for R: projecttemplate
+There is a project that creates a folder structure for python projects called [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/)
 
-http://projecttemplate.net/index.html
+###  Proposed R helper
+Similarly for R: [projecttemplate](http://projecttemplate.net/index.html)
+
+`ProjectTemplate` is a system for automating the thoughtless parts of a data analysis project:
+
+Curating the best R packages.
+Providing simple tools for keeping a log of your work
+Providing template code for:
+- Data diagnostics
+- Data munging
+- Code profiling
+- Unit testing
+
