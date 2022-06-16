@@ -9,7 +9,6 @@ functions and only called by analysis scripts when necessary.
 In this way code becomes easier to reason and to follow through in analysis scripts.
 
 
-
 === "Python"
 
 ``` py
@@ -23,6 +22,16 @@ def FtoC (temp_in_f):
 ``` r
 FtoC <- (temp_in_fahr - 32) * (5 / 9))
 ```
+
+You can find some really helpful pointers on how to create functions in R in the following DASD R Training :
+
+[writing functions in r](https://github.com/moj-analytical-services/writing_functions_in_r)
+
+Likewise a comprehensive tutorial on how to create functions in Python can ve found here:
+
+[defining your own python function](https://realpython.com/defining-your-own-python-function/)
+
+
 ## Dependency managment
 
 There is a need to manage project dependencies. This can be done with dependency management tools (Renv for R /Conda for Python).
