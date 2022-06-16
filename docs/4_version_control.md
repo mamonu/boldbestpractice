@@ -21,7 +21,7 @@ git push -u origin MYNEWBRANCH
 
 
 ``` mermaid
-%%{init: { 'theme': 'base' } }%%
+%%{init: { 'logLevel': 'debug', 'theme': 'default' } }%%
       gitGraph
         branch MYNEWBRANCH
         checkout MYNEWBRANCH
