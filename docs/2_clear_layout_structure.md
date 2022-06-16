@@ -26,45 +26,45 @@ Feel confident in the conclusions at which the analysis arrives
 A very detailed example of how a project could look (example for a Python project)
 ```
 ├── LICENSE
-├── README.md          <- The top-level README
+├── README.md      <- The top-level README
 ├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+│   ├── external   <- Data from third party sources.
+│   ├── interim    <- Intermediate data that has been transformed.
+│   ├── processed  <- The final, canonical data sets for modeling.
+│   └── raw        <- The original, immutable data dump.
 │
 ├── docs              
 │
-├── models             <- Trained and serialized models, model predictions, or model summaries
+├── models          <- Trained and serialized models,model predictions,or model summaries
 │
-├── adhocnotebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── adhocnotebooks  <- Jupyter notebooks. Naming convention is a number (for ordering),
+│                      the creator's initials, and a short `-` delimited description, 
+│                      e.g. 1.0-jqp-initial-data-exploration`.
 │
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+├── references      <- Data dictionaries, manuals, and all other explanatory materials.
 │
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
+├── reports         <- Generated analysis as HTML, PDF, LaTeX, etc.
+│   └── figures     <- Generated graphics and figures to be used in reporting
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
+├── requirements.txt <- The requirements file for reproducing the analysis environment, 
+│                       e.g. generated with `pip freeze > requirements.txt`
 │
-├── setup.py           <- Make this project pip installable with `pip install -e`
-├── src                <- Source code for use in this project.
-    ├── __init__.py    <- Makes src a Python module
+├── setup.py        <- Make this project pip installable with `pip install -e`
+├── src             <- Source code for use in this project.
+    ├── __init__.py <- Makes src a Python module if needed
     │
-    ├── data           <- Scripts to download or generate data
+    ├── data        <- Scripts to download or generate data
     │   └── make_dataset.py
     │
-    ├── features       <- Scripts to turn raw data into features for modeling
+    ├── features    <- Scripts to turn raw data into features for modeling
     │   └── build_features.py
     │
-    ├── models         <- Scripts to train models and then use trained models to make
+    ├── models      <- Scripts to train models and then use trained models to make
     │   │                 predictions
     │   ├── predict_model.py
     │   └── train_model.py
     │
-    └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    └── visualization <- Scripts to create exploratory and results oriented visualizations
         └── visualize.py
 ```
 
@@ -72,6 +72,10 @@ A very detailed example of how a project could look (example for a Python projec
 ### Proposed Python helper
 
 There is a project that creates a folder structure for python projects called [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/)
+
+A suggested BOLD solution is that we can create a BOLD cookiecutter template that every analyst can use by 
+typing `cookiecutter BOLD-Template` and then can provide the agreed upon directories of a starting slate
+We can agree on what will be needed in a discusion via the Github [Issues](https://github.com/mamonu/boldbestpractice/issues) interface
 
 ###  Proposed R helper
 Similarly for R: [projecttemplate](http://projecttemplate.net/index.html)
