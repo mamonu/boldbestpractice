@@ -29,5 +29,4 @@ git push -u origin MYNEWBRANCH
         commit
         commit
         checkout main
-        merge MYNEWBRANCH
 ```
