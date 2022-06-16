@@ -1,5 +1,8 @@
 
 
+
+
+``` mermaid
 %%{init: { 'logLevel': 'debug', 'theme': 'base' } }%%
       gitGraph
         commit
@@ -10,3 +13,4 @@
         commit
         checkout main
         merge MYNEWBRANCH
+```
