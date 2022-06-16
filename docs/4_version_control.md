@@ -1,5 +1,5 @@
 
-``` bash name="git process"
+``` bash
 git pull #for the latest in the repo you want
 git checkout -b MYNEWBRANCH #or any other name to start your own
 
@@ -15,13 +15,12 @@ git commit -m "commit message here"
 git add FILES 
 git commit -m "commit message here"
 
-
 git push -u origin MYNEWBRANCH
 ```
 
         
 ```mermaid
-%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'rotateCommitLabel': true}} }%%
+%%{init: { 'logLevel': 'debug', 'theme': 'base' }%%
 gitGraph:
 checkout main
 commit
