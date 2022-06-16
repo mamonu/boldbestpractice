@@ -36,6 +36,14 @@ are concerned or they might not include the right C++ compiler. Using conda to i
 needed in already compiled binary format saves a lot of headaches as far as reproducibility is concerned.
 
 
+# Data is immutable
+
+- Don't ever edit your raw data, especially not manually, and especially not in Excel. Don't overwrite your raw data. Don't save multiple versions of the raw data. Treat the data (and its format) as immutable. 
+- The code you write should move the raw data through a pipeline to your final analysis. 
+- You shouldn't have to run all of the steps every time you want to make a new figure 
+
+
+
 ## Data and code lineage
 
 Another matter that can help with reproducibility and pays dividends to be aware of is code and data provenance and lineage. 
@@ -62,5 +70,18 @@ example in command prompt:
   md5  <file> 
 ```
 
+  
+# Keep data out of version control
 
+You really don't want to leak your data on a public repo on Github.  Here's one way to do this:
 
+Learn how to use `.gitignore`. In this way data files should never get committed into the version control repository. 
+
+  
+  
+# Keep secrets and configuration out of version control
+
+You also don't want to leak your AWS secret key or database username and password on Github.  Here's one way to do this:
+
+- Store your secrets and config variables in a special file
+- Create a .env file in the project root folder. Thanks to the `.gitignore`, this file should never get committed into the version control repository. 
