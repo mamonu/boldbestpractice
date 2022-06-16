@@ -82,9 +82,60 @@ example in command prompt:
   
 ## Keep data out of version control
 
-You really don't want to leak your data on a public repo on Github.  Here's one way to do this:
+You really don't want to leak your data on a public repo on Github. The way to do this is to learn use `.gitignore`. 
+In this way data files should never get committed into the version control repository. 
+You can see below hypothetical .gitignore examples for Python and R
 
-Learn how to use `.gitignore`. In this way data files should never get committed into the version control repository. 
+=== "Python"
+
+``` bash
+# Data files in directory
+DATADIR/  
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+```
+
+=== "R"
+
+``` bash
+# Data files in directory
+DATADIR/
+  
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+```
 
   
   
