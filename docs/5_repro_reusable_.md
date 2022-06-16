@@ -71,7 +71,7 @@ example in command prompt:
 ```
 
   
-# Keep data out of version control
+## Keep data out of version control
 
 You really don't want to leak your data on a public repo on Github.  Here's one way to do this:
 
@@ -79,7 +79,7 @@ Learn how to use `.gitignore`. In this way data files should never get committed
 
   
   
-# Keep secrets and configuration out of version control
+## Keep secrets and configuration out of version control
 
 You also don't want to leak your AWS secret key or database username and password on Github.  Here's one way to do this:
 
