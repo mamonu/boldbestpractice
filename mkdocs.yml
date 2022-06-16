@@ -34,6 +34,7 @@ nav:
   - 4 Version Control: "4_version_control.md"
   - 5 Reproducible and Reusable work: "5_repro_reusable_.md"
   - 6 QA and Testing: "6_QA_testing.md"
+  - Contributing : "Contributing.md"
   - Appendix:
     - Org Infrastructure:
       - MOJ
