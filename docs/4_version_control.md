@@ -11,9 +11,6 @@ A version control system neatly stores a history of changes and who made them, s
 
 Finally, version control is invaluable for collaborative projects where different people work on the same code simultaneously and build on each other’s work. It allows the changes made by different people to be tracked and can automatically combine people’s work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as GitHub provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.
 
-
-## General Workflow
-
 Version control is a systematic approach to record changes made in a file, or set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later when needed. A typical procedure for using version control is as follows:
 
 - [x] Create files - these may contain text, code or both.
@@ -38,7 +35,31 @@ So you have your project and you want to add something new or try something out 
 When you are happy with the new changes, you can introduce them to the main project. The merge feature in Git allows the independent lines of development in a local branch to get integrated into the main branch.
 
 
-``` bash 
+
+## General Proposed Workflow
+
+- [x] Make your project version controlled by initialising a Git repository in its directory using `git init` 
+
+- [x] Add and commit all your files to the repository using `git add .` then `git commit` 
+
+- [x] Continue to add and commit changes as your project progresses. Stage the changes in specific files to be committed with `git add <FILES> ` , and add messages to your commits.
+
+- [x] Each commit preferably should make one simple change. Commit messages are meaningful, with a ~50 character summary at the top. Commit messages are in the present tense and imperative.
+
+- [x] Develop new features on their own branches, which you can create via `git checkout -b <MYNEWBRANCH>` and switch between via `git checkout < MYNEWBRANCH >` 
+
+- [x] Make sure branches have informative names.
+
+- [x] Make sure the main branch is kept clean.
+
+- [x] Make sure each branch has a single purpose and only changes related to that purpose are made on it.
+
+- [x] Once features are complete, merge their branches into the main branch by switching to the feature branch and running `git merge main` .
+
+
+
+
+``` bash title="example git command sequence"
 git pull #for the latest in the repo you want
 git checkout -b MYNEWBRANCH #or any other name to start your own
 
@@ -56,3 +77,6 @@ git commit -m "commit message here"
 
 git push -u origin MYNEWBRANCH
 ```
+
+*[MYNEWBRANCH] : Put your branch name here!
+*[FILES] : Put your file name/names here!
