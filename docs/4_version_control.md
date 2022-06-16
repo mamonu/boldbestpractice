@@ -17,19 +17,3 @@ git commit -m "commit message here"
 
 git push -u origin MYNEWBRANCH
 ```
-
-        
-```mermaid
-%%{init: { 'logLevel': 'debug', 'theme': 'base' }%%
-gitGraph:
-checkout main
-commit
-commit
-branch newbranch
-checkout newbranch
-commit
-commit
-commit
-checkout main
-merge newbranch
-```
