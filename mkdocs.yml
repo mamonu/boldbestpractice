@@ -1,6 +1,8 @@
 site_name: BOLD Best Practice
 use_directory_urls: True
 repo_url: https://github.com/mamonu/boldbestpractice
+logo: "img/favicon.ico"
+favicon: "img/favicon.ico"
 markdown_extensions:
   - abbr
   - attr_list
