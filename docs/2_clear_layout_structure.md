@@ -26,6 +26,7 @@ Feel confident in the conclusions at which the analysis arrives
 A very detailed example of how a project could look (example for a Python project)
 ```
 ├── LICENSE
+├── .gitignore     <- files that should not be commited to a repo
 ├── README.md      <- The top-level README
 ├── data
 │   ├── external   <- Data from third party sources.
