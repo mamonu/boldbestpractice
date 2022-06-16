@@ -36,7 +36,7 @@ are concerned or they might not include the right C++ compiler. Using conda to i
 needed in already compiled binary format saves a lot of headaches as far as reproducibility is concerned.
 
 
-# Data is immutable
+## Data is immutable
 
 - Don't ever edit your raw data, especially not manually, and especially not in Excel. Don't overwrite your raw data. Don't save multiple versions of the raw data. Treat the data (and its format) as immutable. 
 - The code you write should move the raw data through a pipeline to your final analysis. 
