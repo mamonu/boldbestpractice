@@ -1,6 +1,6 @@
 site_name: BOLD Best Practice
 use_directory_urls: True
-repo_url:
+repo_url: https://github.com/mamonu/boldbestpractice
 markdown_extensions:
   - abbr
   - attr_list
