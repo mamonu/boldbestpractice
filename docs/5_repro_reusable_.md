@@ -62,7 +62,11 @@ the output of your analysis to also include the git hash of the code that produc
 
 === "Python"
 ```py 
-  print(system("git rev-parse --short HEAD", intern = TRUE))
+import subprocess
+def get_git_revision_hash():
+    return subprocess.check_output(['git', 'rev-parse', 'HEAD'])
+def get_git_revision_short_hash():
+    return subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD'])
 ```
   
 === "R"
