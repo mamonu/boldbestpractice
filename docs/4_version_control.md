@@ -54,7 +54,7 @@ When you are happy with the new changes, you can introduce them to the main proj
 
 - [x] Make sure each branch has a single purpose and only changes related to that purpose are made on it.
 
-- [x] Once features are complete, merge their branches into the main branch by switching to the feature branch and running `git merge main` .
+- [x] Once work on a branch  is complete, it is recommended that a Pull Request is sent for review 
 
 
 
@@ -82,7 +82,7 @@ git push -u origin MYNEWBRANCH
 ```
 
 
-## Project review
+## Code review
 
 Code review provides additional assurance that code logic is correct, as well as providing feedback on code and problem structuring. For smaller projects, the review only needs to be a simple read-through and sanity check.
 
