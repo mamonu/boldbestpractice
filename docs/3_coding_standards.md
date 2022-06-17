@@ -15,7 +15,7 @@ This section sets out sensible defaults which you are recommended to follow. The
 === "R"
 
 ``` md 
-- Follow the Tidyverse Style Guide
+- Follow the [Tidyverse Style Guide](https://style.tidyverse.org/index.html)
 - Default to packages from the Tidyverse, because they have been carefully designed to work together 
   effectively as part of a modern data analysis workflow. More info can be found here: 
   R for Data Science by Hadley Wickham. 
@@ -49,8 +49,8 @@ A linter is a tool that analyses code to check for programmatic and stylistic er
 
 In RStudio, the keyboard shortcut ‘ctrl+shift+A’ will reformat your code and automate some of the process of passing the linter. If you apply the linter as you work, rather than at the end, you will find it much easier to write code that passes the linter first time.
 
-For R use Lintr and follow the Tidyverse Style Guide.
-For Python, use black and follow PEP8.
+For R use Lintr and follow the [Tidyverse Style Guide](https://style.tidyverse.org/index.html).
+For Python, use [black](https://github.com/psf/black) and follow [PEP8](https://peps.python.org/pep-0008/).
 If possible, set up your linters to run automatically on all pull requests, using Github Actions.
 
 ## Error messages
