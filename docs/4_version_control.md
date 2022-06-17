@@ -76,7 +76,24 @@ git add FILES
 git commit -m "commit message here"
 
 git push -u origin MYNEWBRANCH
+
+# got to github repo at branch MYNEWBRANCH
+# PULL REQUEST from Github Interface
 ```
+
+
+## Project review
+
+Code review provides additional assurance that code logic is correct, as well as providing feedback on code and problem structuring. For smaller projects, the review only needs to be a simple read-through and sanity check.
+
+Code reviews should be initiated through the creation of a pull request. The review should typically involve the reviewer pulling the code to their local machine, testing it, and leaving comments in the pull request.
+
+Remember that it’s always easier (for both you and your reviewers) if you commit and push your changes regularly. You should merge branches into the master regularly so that reviewers review little and often, rather than attempting to review your entire codebase all at once.
+
+
+
+
+
 
 *[MYNEWBRANCH] : Put your branch name here!
 *[FILES] : Put your file name/names here!
