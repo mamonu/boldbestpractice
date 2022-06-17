@@ -55,3 +55,8 @@ If possible, set up your linters to run automatically on all pull requests, usin
 
 ## Error messages
 Errors will occur, so write your error messages in a way that provide useful information to end users and people working on the code.
+
+## Encoding and CSVs	
+
+Use unicode for character encoding. This means you should convert inputs that include non-ASCII characters to unicode as early as possible in your data processing workflow. If you are outputting to text files, these should be encoded in `utf-8`.
+
