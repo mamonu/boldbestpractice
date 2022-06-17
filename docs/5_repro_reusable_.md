@@ -60,7 +60,18 @@ Another matter that can help with reproducibility and pays dividends to be aware
 Different code can understandably give different results. One way to help navigate this is by having 
 the output of your analysis to also include the git hash of the code that produced it.
 
-<INSERT WAY TO DO THIS HERE>
+=== "Python"
+```py 
+  print(system("git rev-parse --short HEAD", intern = TRUE))
+```
+  
+=== "R"
+```r 
+library(git2r)
+repo <- repository(".")
+print(repository_head(repo))
+```
+
   
 There is also a need to do the same for data: Analysis that starts from a different point might have a different result. 
 The solution is to include a hash of the data or any other way to help identifying the starting point of an analysis. 
