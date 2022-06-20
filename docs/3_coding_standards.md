@@ -5,12 +5,10 @@
 This section sets out sensible defaults which you are recommended to follow. They are not strict rules, but are recommended  
 === "Python"
 
-``` md
-- Follow PEP8
-- Use Python 3
-- Use pandas for data analysis on smaller datasets. Pyspark for bigger datasets
-- Use black formatter
-```
+
+- [x] Be aware of the Python Style guide also known as [PEP8](https://peps.python.org/pep-0008/) .You can use the [black](https://black.readthedocs.io/en/stable/) formatter so that your code can follow PEP8 automatically.
+- [x] Use Python 3 instead of Python 2. Use versions of Python that have security support and will be supported for a while. At the moment of writing 3.8 is the recommended version but this can change with time. Consult [this](https://endoflife.date/python) page to see when security support ends for different versions
+- [x] Use pandas for data analysis on smaller datasets. Pyspark for bigger datasets
 
 === "R"
 
