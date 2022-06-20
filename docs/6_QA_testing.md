@@ -43,14 +43,13 @@ It is important to provide documentation that describes how to run the tests, bo
 !!! note
      So to summarise tests should be:
      
-            - Fast & Independent
+          - [x] Fast & Independent
   
-            - Repeatable (deterministic)
+          - [x] Repeatable (deterministic)
   
-            - Self-validating (no manual steps)
+          - [x] Self-validating (no manual steps)
 
-            - Thorough (How much do you trust they cover everything?)
- 
+          - [x] Thorough (How much do you trust they cover everything?)
 
 ## Language specific testing tips
 
