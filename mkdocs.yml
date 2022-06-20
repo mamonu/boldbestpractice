@@ -41,7 +41,7 @@ nav:
   - Contributing : "Contributing.md"
   - Appendix:
     - Org Infrastructure:
-      - MOJ
-      - DHSC
-      - ONS
+      - MOJ:"orgs/MOJ.md"
+      - DHSC:"orgs/DHSC.md"
+      - ONS:"orgs/ONS.md"
       
