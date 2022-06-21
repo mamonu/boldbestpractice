@@ -1,4 +1,4 @@
-# 6 QA & testing
+# 7 QA & testing
 
 
 Testing is a way of quality assuring our work when creating software that is important. 

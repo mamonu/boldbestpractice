@@ -1,4 +1,4 @@
-# 2 Use a clear layout structure
+# 3 Use a clear layout structure
 
 The next step above doing adhoc exploratory work is to use the directory hierarchy to organise the project
 
