@@ -47,10 +47,6 @@ A very detailed example of how a project could look (example for a Python projec
 ├── reports         <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures     <- Generated graphics and figures to be used in reporting
 │
-├── requirements.txt <- The requirements file for reproducing the analysis environment, 
-│                       e.g. generated with `pip freeze > requirements.txt`
-│
-├── setup.py        <- Make this project pip installable with `pip install -e`
 ├── src             <- Source code for use in this project.
     ├── __init__.py <- Makes src a Python module if needed
     │
