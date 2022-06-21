@@ -1,35 +1,5 @@
 # 6 Reproducible and reusable work
 
-##Functions
-
-Something that also can help is the need to refactor code that is repeating in analysis scripts to a
-higher level of abstraction by using reusable functions so that lower-level implementations are wrapped into 
-functions and only called by analysis scripts when necessary. 
-
-In this way code becomes easier to reason and to follow through in analysis scripts.
-
-
-=== "Python"
-
-``` py
-def FtoC (temp_in_f):
-  celsius = (temp_in_f - 32) * 5/9
-  return celcius
-```
-
-=== "R"
-
-``` r
-FtoC <- (temp_in_fahr - 32) * (5 / 9))
-```
-
-You can find some really helpful pointers on how to create functions in R in the following DASD R Training :
-
-[writing functions in r](https://github.com/moj-analytical-services/writing_functions_in_r)
-
-Likewise a comprehensive tutorial on how to create functions in Python can ve found here:
-
-[defining your own python function](https://realpython.com/defining-your-own-python-function/)
 
 
 ## Dependency managment
@@ -104,7 +74,7 @@ You can see below hypothetical .gitignore examples for Python and R
 === "Python"
 
 ``` bash
-# Data files in directory
+# keep data files in directory DATADIR out of the repo
 DATADIR/  
 
 # Byte-compiled / optimized / DLL files
@@ -124,7 +94,7 @@ develop-eggs/
 === "R"
 
 ``` bash
-# Data files in directory
+# keep data files in directory DATADIR out of the repo
 DATADIR/
   
 # History files
@@ -152,11 +122,10 @@ DATADIR/
 
 ```
 
-  
-  
+
 ## Keep secrets and configuration out of version control
 
 You also don't want to leak your AWS secret key or database username and password on Github.  Here's one way to do this:
 
-- Store your secrets and config variables in a special file
-- Create a .env file in the project root folder. Thanks to the `.gitignore`, this file should never get committed into the version control repository. 
+- Store your secrets and config variables in a special file (for example called .env) in the root folder
+- Add a line in `.gitignore` with the name of this special file. In this way this file will never get committed into the version control repository. 

@@ -16,3 +16,9 @@ and the code needed for analysis / linking / any other use. This is a "live" doc
 that something needs to be added so be sure to check it regularly / have it in your bookmarks.
 
 
+## Structure of this best practice document
+
+You can add your suggestions for this document via the Github Issues interface.
+Please see the [Contributing](Contributing.md) for further details.
+
+

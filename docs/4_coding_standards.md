@@ -12,20 +12,13 @@ This section sets out sensible defaults which you are recommended to follow. The
 
 === "R"
 
-``` md 
-- Follow the [Tidyverse Style Guide](https://style.tidyverse.org/index.html)
-- Default to packages from the Tidyverse, because they have been carefully designed to work together 
-  effectively as part of a modern data analysis workflow. More info can be found here: 
-  R for Data Science by Hadley Wickham. 
-  For example:
-  - Prefer tibbles to data.frames
-  - Use ggplot2 rather than base graphics
-  - Use the pipe %>% appropriately, but not always e.g. see here.
-  - Prefer purrr to the apply family of functions. See here
-  - Use the package name when calling a function. For example, using dplyr::mutate() rather than just mutate()
 
-```
-
+- [x] Follow the [Tidyverse Style Guide](https://style.tidyverse.org/index.html)
+- [x] Default to packages from the Tidyverse, because they have been carefully designed to work together 
+  effectively as part of a modern data analysis workflow. 
+  
+  More info can be found here: [R for Data Science by Hadley Wickham](https://r4ds.had.co.nz). 
+  
 
 ## Naming conventions
 
