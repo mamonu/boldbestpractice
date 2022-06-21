@@ -134,6 +134,6 @@ You also don't want to leak your AWS secret key or database username and passwor
 
 ## BOLD project .gitignore template
 
-A preliminary .gitignore template has been created and is available [here](../files/.gitignore).
+A preliminary .gitignore template has been created and is available [here](../files/agitignore.txt).
 You can start with it and then edit it further to add other files/directories you want to make sure
 that they are not commited in a code repo

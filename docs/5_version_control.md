@@ -38,7 +38,7 @@ When you are happy with the new changes, you can introduce them to the main proj
 
 ## Basic Git Workflow
 
-=== "Tab 1"
+=== "example git workflow"
 ``` bash title="example git command sequence"
 git pull #for the latest in the repo you want
 git checkout -b MYNEWBRANCH #or any other name to start your own
@@ -70,15 +70,12 @@ graph TB
   E--> F[commit the change];
   F-->G{Finished?};
   G -->|No| E;
-  G ---->|Yes| H[Yay!]
-  H --> I[Open a pull request]
-  I --> J[Merge your branch to the main branchh]
-  
-  
+  G ---->|Yes| H[Push to branch]
+  H ---> FF{Finished?}
+  FF --> |Yes| I;
+  FF --> |No| E;
+  I[Open a pull request] --> J[Merge your branch to the main branchh]
 ```
-
-
-
 
 ## Git recommendations
 
