@@ -138,7 +138,7 @@ that they are not commited in a code repo. This can also be included in the cook
 
 ## pre-commit git hooks
 
-![](img/gitcommits.png)
+![](img/precommithook.png)
 
 Git hooks are scripts that Git executes before or after events such as: commit, push, and receive. Git hooks are a built-in feature - no need to download anything. Git hooks are run locally.
 
