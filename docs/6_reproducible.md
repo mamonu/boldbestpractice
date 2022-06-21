@@ -129,3 +129,11 @@ You also don't want to leak your AWS secret key or database username and passwor
 
 - Store your secrets and config variables in a special file (for example called .env) in the root folder
 - Add a line in `.gitignore` with the name of this special file. In this way this file will never get committed into the version control repository. 
+
+
+
+## BOLD project .gitignore template
+
+A preliminary .gitignore template has been created and is available [here](../files/.gitignore).
+You can start with it and then edit it further to add other files/directories you want to make sure
+that they are not commited in a code repo
