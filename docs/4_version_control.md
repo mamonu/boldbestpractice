@@ -36,29 +36,9 @@ When you are happy with the new changes, you can introduce them to the main proj
 
 
 
-## General Proposed Workflow
+## Basic Git Workflow
 
-- [x] Make your project version controlled by initialising a Git repository in its directory using `git init` 
-
-- [x] Add and commit all your files to the repository using `git add .` then `git commit` 
-
-- [x] Continue to add and commit changes as your project progresses. Stage the changes in specific files to be committed with `git add <FILES> ` , and add messages to your commits.
-
-- [x] Each commit preferably should make one simple change. Commit messages are meaningful, with a ~50 character summary at the top. Commit messages are in the present tense and imperative.
-
-- [x] Develop new features on their own branches, which you can create via `git checkout -b <MYNEWBRANCH>` and switch between via `git checkout < MYNEWBRANCH >` 
-
-- [x] Make sure branches have informative names.
-
-- [x] Make sure the main branch is kept clean.
-
-- [x] Make sure each branch has a single purpose and only changes related to that purpose are made on it.
-
-- [x] Once work on a branch  is complete, it is recommended that a Pull Request is sent for review 
-
-
-
-
+=== "Tab 1"
 ``` bash title="example git command sequence"
 git pull #for the latest in the repo you want
 git checkout -b MYNEWBRANCH #or any other name to start your own
@@ -80,6 +60,42 @@ git push -u origin MYNEWBRANCH
 # got to github repo at branch MYNEWBRANCH
 # PULL REQUEST from Github Interface
 ```
+=== "Tab 2"
+``` mermaid
+graph TB
+  A[Create/initialise a repository] --> B[Add a file to your repo with git add ];
+  B--> C[commit/save the changes with git commit ];
+  C--> D[Create a branch / version with git checkout];
+  D--> E[make a change];
+  E--> F[commit the change];
+  F-->G{Finished?};
+  G -->|No| E;
+  G ---->|Yes| H[Yay!]
+  H --> I[Open a pull request]
+  I --> J[Merge your branch to the main branchh]
+  
+  
+```
+
+
+
+
+## Git recommendations
+
+- [x] Make your project version controlled by initialising a Git repository in its directory using `git init` 
+- [x] Add and commit all your files to the repository using `git add .` then `git commit -m "my informative message here` 
+- [x] Commit messages should be meaningful and informative
+- [x] In case you want to  make changes in specific files only to be committed with `git add <FILE> ` then `git commit -m "my informative message here"` 
+- [x] Each commit preferably should make one simple change. Commit often as it makes it easier to be able to return to specific points in your project if something goes wrong. More commits more savepoints !
+- [x] Develop new features of your project on their own branches, which you can create via `git checkout -b <MYNEWBRANCH>` and switch between via `git checkout < MYNEWBRANCH >` 
+- [x] Make sure branches have informative names too. 
+- [x] Make sure the main branch is kept clean. Only release level code should be here.
+- [x] Make sure each branch has a single purpose and only changes related to that purpose are made on it.  
+- [x] Once work on a branch  is complete, it is recommended that a Pull Request is sent for review 
+
+
+
+
 
 
 ## Code review
@@ -92,7 +108,13 @@ Remember that it’s always easier (for both you and your reviewers) if you comm
 
 
 
+## Git turorials and interesting recommended sources of information
 
+- Learn git with an [interactive git simulator](https://learngitbranching.js.org/) . Chapter 1/2/3 of the "Introduction Sequence" recommended for beginners. After that feel free to discover other less essential but still useful information on how to use git. 
+- Did things go horribly wrong while using git? [Dangitgit](https://dangitgit.com/en) to the rescue.
+- Want to see if you understand branches well? [Here](https://questions.wizardzines.com/git-branches.html) are some questions to test your understanding
+- a book for git called [Pro Git](https://git-scm.com/book/en/v2) that is free
+- explore what you can do with git and get the command you need with [gitexplorer](https://gitexplorer.com/)
 
 
 *[MYNEWBRANCH] : Put your branch name here!
