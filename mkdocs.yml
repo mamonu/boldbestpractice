@@ -11,13 +11,15 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.snippets:
   - toc:
       permalink: True
   - pymdownx.superfences:
+      preserve_tabs: true
       custom_fences:
         - name: mermaid
           class: mermaid
@@ -29,6 +31,8 @@ theme:
 plugins:
   - search
   - mknotebooks
+extra_javascript:
+  - https://unpkg.com/mermaid@8.13.3/dist/mermaid.min.js
 nav:
   - Home: "index.md"
   - 1 Ad hoc scripts: "1_adhocscripts.md"
