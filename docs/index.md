@@ -44,4 +44,4 @@ It would be useful to start from the section [6](6_reproducible.md), "Reproducib
 ### How to contribute 
 
 You can add your suggestions for this document via the Github Issues interface.
-Please see the [Contributing](Contributing.md) for further details.
+Please see the [Contributing](Contributing.md) section for further details.

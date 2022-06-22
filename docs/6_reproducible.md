@@ -1,18 +1,20 @@
-# 6 Reproducible and reusable work
+# 6 Reproducible work
 
 
 
 ## Dependency managment
 
-There is a need to manage project dependencies. This can be done with dependency management tools (Renv for R /Conda for Python).
+When working on a code project, one of the key concerns is `dependency management`. `Dependencies` are all of the software components required by your project in order for it to work as intended and avoid runtime errors. This usually means packages/libraries and specific package/library versions
 
-One solution is using conda for this as it also isntalls libraries in binary format for particular machines (Windows/OSX/Linux).
-This is quite useful as a lot of times many packages use what is known as bootstrapping where they are compiled from source code 
-to binary on the analyst’s computer. 
+This can be done effectively with dependency management tools 
 
-Something that is problematic is that most analyst computers are locked down as far as access and writing permissions 
-are concerned or they might not include the right C++ compiler. Using conda to install the packages 
-needed in already compiled binary format saves a lot of headaches as far as reproducibility is concerned.
+
+=== "Python"
+A tried and tested solution is using [conda](https://docs.conda.io/en/latest/) for this as it also installs libraries in binary format for particular machines (Windows/OSX/Linux). This is quite useful as a lot of times many packages use what is known as bootstrapping where they are compiled from source code to executable packages that can be then imported on the analyst’s computer. 
+Something that is can usually become a problem is that most computers analysts use are locked down as far as access and writing permissions 
+are concerned or they might not include the right C++ compiler. Using conda to install the packages needed in already compiled binary format saves a lot of headaches as far as reproducibility is concerned.
+=== "R"
+Using a dependency managment tool like [Renv](https://rstudio.github.io/renv/articles/renv.html) is recommended for R.
 
 
 ## Data is immutable

@@ -25,6 +25,25 @@ The second most important piece of advice: run the tests. Having a beautiful, pe
 It is best to automate your testing as far as possible. If each test needs to be run individually then that boring painstaking process is likely to get neglected. This can be done by making use of a testing framework 
 
 
+##  What to test
+
+!!! info 
+      Whenever you are tempted to type something into a print statement, write it as a test instead.
+
+- [x]There is a fine balance to writing tests. Each test that you write makes your code less likely to change inadvertently; but it also can make it harder to change your code on purpose. It’s hard to give good general advice about writing tests, but you might find these points helpful:
+
+- [x] Focus on testing the external interface to your functions - if you test the internal interface, then it’s harder to change the implementation in the future because as well as modifying the code, you’ll also need to update all the tests.
+
+- [x] Strive to test each behaviour in one and only one test. Then if that behaviour later changes you only need to update a single test.
+
+- [x] Avoid testing simple code that you’re confident will work. Instead focus your time on code that you’re not sure about, is fragile, or has complicated interdependencies. That said, I often find I make the most mistakes when I falsely assume that the problem is simple and doesn’t need any tests.
+
+- [x] Always write a test when you discover a bug. You may find it helpful to adopt the test-first philosophy. There you always start by writing the tests, and then write the code that makes them pass. This reflects an important problem solving strategy: start by establishing your success criteria, how you know if you’ve solved the problem.
+
+
+
+
+
 ## Consider how long it takes your tests to run
 Some tests, like Unit Testing only test a small piece of code and so typically are very fast. However other kinds of tests, such as System Testing which test the entire code from end to end, may take a long time to run depending on the code. As such it can be obstructive to run the entire test suite after each little bit of work. In that case it is better to run lighter weight tests such as unit tests frequently, and longer tests only once per day overnight. It is also good to scale the number of each kind of tests you have in relation to how long they take to run. You should have a lot of unit tests (or other types of tests that are fast) but much fewer tests which take a long time to run.
 
@@ -53,7 +72,23 @@ So to summarise tests should be:
 
 ## Language specific testing tips
 
-### pytest plugins
 
-There are many pytest plugins that add new functionality such as coverage calculation, parallelizing tests,
+
+=== "Python"
+- [x] There are many pytest plugins that add new functionality such as coverage calculation, parallelizing tests,
 including time information in tests (ie fail a test if it takes more than 1 min to finish!) etc
+
+=== "R"
+- [x] [testthat](https://testthat.r-lib.org/) is the recommended testing solution.
+- [x] [assertr](https://docs.ropensci.org/assertr/) library is very useful for data validation. It provides lots of ready made functions for checking data.
+- [x] [assertthat](https://github.com/hadley/assertthat) package is a more advanced replacement of the `stopifnot()` function
+
+
+
+
+
+
+
+
+
+
