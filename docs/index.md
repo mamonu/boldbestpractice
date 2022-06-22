@@ -41,7 +41,7 @@ It would be useful to start from the section [3](3_clear_layout_structure.md), "
 
 It would be useful to start from the section [6](6_reproducible.md), "Reproducible Work" and cover all subsequent sections
 
-### How to contribute 
+## How to contribute 
 
 You can add your suggestions for this document via the Github Issues interface.
 Please see the [Contributing](Contributing.md) section for further details.
