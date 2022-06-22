@@ -40,7 +40,9 @@ In a way, Jupyter notebooks strike a balance between simple text editors, which 
 
 ## Why someone should not work ONLY with Jupyter Notebooks and work with an IDE
 
+Jupyer notebooks are great for telling data stories. But, unless we are doing pure research, our research is the means to an end — and that is, getting valuable insights from our data stories and data models.
 
+A production-grade pipeline needs to be composed out of debuggable, reproducible, easy-to-deploy, high-performance code components that could be orchestrated and scheduled. In its default version, it’s everything adhoc code on Jupyter isn’t.
 
 
 ## Next Steps

@@ -118,6 +118,9 @@ You can see below hypothetical .gitignore examples for Python and R
 # keep data files in directory DATADIR out of the repo
 DATADIR/  
 
+# keep csv files everywhere  out of the repo
+*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -137,7 +140,10 @@ develop-eggs/
 ``` bash
 # keep data files in directory DATADIR out of the repo
 DATADIR/
-  
+
+# keep csv files everywhere  out of the repo
+*.csv
+
 # History files
 .Rhistory
 .Rapp.history
