@@ -1,11 +1,15 @@
 
 # 2 Reusable code
 
+
+Breaking your code down into smaller, more manageable chunks is a sensible way to improve readability. Regardless of the language, there are  techniques to containerise your code into self-contained parts such as modules, classes or functions.
+
+
 ## Functions
 
-
-A function is simply a “chunk” of code that you can use over and over again, rather than writing it out multiple times. 
-Functions enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task.
+In the early stages of analysis we often copy and paste code to ‘make it work’. As this work matures, it is worth taking repetitive code and turning it into functions. Functions allow us to make a piece of logic reusable in a consistent and readable way,
+A function is simply a way to “chunk” some code that you can use over and over again, rather than writing it out multiple times. 
+Functions enable programmers to break down or decompose a problem into smaller parts, each of which performs a particular task.
 In this way code becomes easier to reason and to follow through in analysis scripts.
 
 
@@ -36,6 +40,8 @@ Likewise a comprehensive tutorial on how to create functions in Python can ve fo
 [defining your own python function](https://realpython.com/defining-your-own-python-function/)
 
 
+### Referential transparency
 
+When writing functions, it’s  important to consider how they interact with other parts of your code. As a general rule of thumb, your code should run in the same way if a call to your function was replaced by the value that it would have returned. This is referred to as ‘referential transparency’.
 
-
+In practice, this means that your functions should not depend-on or affect variables that have not been explicitly fed into them as arguments. For instance, a function should not add columns to a data table that has not been passed as an input to the function. Nor should the action of a function be affected by anything other than arguments that are passed to it. For example, running your function twice with the same inputs should always produce the same results.

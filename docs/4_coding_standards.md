@@ -1,5 +1,16 @@
 # 4 Coding standards 
 
+## Motivation
+
+!!! cite
+  Code is read more often than it is written.
+  -- Guido van Rossum (creator of Python)
+
+
+When writing code, we should expect that at some point someone else will need to understand, use and adapt it. This might be yourself in six months time. As such, it is important to empathise with these potential users and write code that is tidy, understandable and does not add unnecessary complexity.
+
+Common barriers to writing readable code include: documentation that is hard to understand or absent, walls of repetitive code that is hard to absorb, or over-complicated code where a simpler solution could be used. Avoiding these issues is essential to make sure that your analysis is reproducible, auditable and assured. Therefore it is our professional responsibility to avoid putting such barriers in place whenever possible.
+
 ## Sensible defaults
 
 This section sets out sensible defaults which you are recommended to follow. They are not strict rules, but are recommended  

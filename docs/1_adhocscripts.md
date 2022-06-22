@@ -6,11 +6,15 @@ Everyone starts somewhere. This is usually every project in the beginning.
 Trying something out with perhaps hardcoded minimal inputs and outputs.
 
 
-• Code may not be well named or organised:
+Also at this point code may not be well named or organised:
 
+!!! danger
+    examples of badly named filenames that do not explain what the code contained in the file is doing:
+    ```
     Project1.r  
     lastworkingcodeFINALFINAL.R 
-    ITWORKKKSSSS.R
+    ITWORKKKSSSS.py
+    ```
 
 
 Certainly this is not work that will be ready for sharing! Hopwfully by following the next steps in the BOLD Best Practices Manifesto an
@@ -26,9 +30,12 @@ There are some ways that even in this stage work can be useful.
 An analyst can work in an exploratory mode, investigating processes and building familiarity with the problem domain. 
 Usually work in this step is comprised of single file/ page programs that are in one file also known as `scripts` 
 
-- [x] the focus on this step should be on learning and reducing uncertainties. Its an important first step on learning how to automate processes via programming and not doing things by hand / manually. 
+!!! info
+    the focus on this step should be on learning and reducing uncertainties. 
+    Its an important first step on learning how to automate processes via programming and 
+    not doing things by hand / manually. 
 
-Just be aware that there are better ways of organising this adhoc code. In this document hopefully we can signpost some of them
+Just be aware that there are better ways of organising this adhoc code. In this document hopefully we can signpost some of them.
 
 
 
@@ -43,6 +50,22 @@ In a way, Jupyter notebooks strike a balance between simple text editors, which 
 Jupyer notebooks are great for telling data stories. But, unless we are doing pure research, our research is the means to an end — and that is, getting valuable insights from our data stories and data models.
 
 A production-grade pipeline needs to be composed out of debuggable, reproducible, easy-to-deploy, high-performance code components that could be orchestrated and scheduled. In its default version, it’s everything adhoc code on Jupyter isn’t.
+
+Out of 400 cells, could cell # 273 run even if cell #50 did not run? What if it did run, but on a different data, reading different data? Are cell #200’s results immutable? I.e. can we re-run it and get the same results, or will a re-run fail/return different results?
+
+There is no easy way of answering any of those questions while developing on a Jupyter Notebook.
+
+You have to rely on your human memory to know which cell could run with/without other cells, which cell is re-runnable, etc. 
+This just doesn’t work. Basically, what most data scientists do when they are unsure about the state of a notebook, is just trigger a complete re-run of the entire notebook, which is a complete waste of time and resources.
+
+Notebooks are useful tools for interactive data exploration which is the dominant activity of a data scientist working on the early phase of a new project or exploring a new technique. But once an approach has been settled on, the focus needs to shift to building a structured codebase around this approach while retaining some ability to experiment. The key is to build the ability to experiment into the pipeline itself. An example would be including a machine learning model registry which allows one to modify parameters at either run-time or build-time and stores results such as performance metrics in a data store. This has the advantage that experiments are always repeatable as they run with versioned code and their results are retained for purposes of comparison, and also as demonstrable markers of progress. 
+
+
+## So what is the solution
+
+For R the use of RStudio, a fully fledged IDE ("Integrated Development Environment").
+For Python VSCode is recommended
+
 
 
 ## Next Steps
