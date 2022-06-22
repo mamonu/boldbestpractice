@@ -60,7 +60,7 @@ git push -u origin MYNEWBRANCH
 # got to github repo at branch MYNEWBRANCH
 # PULL REQUEST from Github Interface
 ```
-=== "Tab 2"
+=== "git workflow flowchart"
 ``` mermaid
 graph TB
   A[Create/initialise a repository] --> B[Add a file to your repo with git add ];

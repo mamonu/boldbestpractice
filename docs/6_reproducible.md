@@ -1,12 +1,47 @@
 # 6 Reproducible work
 
+One of the problems with working with open source software is that it is quite easy to fall into a trap called ‘dependency hell’. Essentially, this occurs when the software we write depends on open source packages, which depend on other open source packages, which can depend on other packages, and on, and on.
+
+All these packages may be written by many different people, and are updated at vastly different timescales. If we fail to take account of this, then we are likely to fail at the first hurdle of reproducibility, and we may find that in a year’s time we are no longer able to reproduce the work that we previously did - or at least not without a lot of trouble. There are several ways we might get on top of this problem and we in this way we are going to try to explain some ways of dealing with this.
+
+
+## Dependencies
+
+`Dependencies` are all of the software components required by your project in order for it to work as intended and avoid runtime errors.
+
+
+=== "Python"
+
+
+After installing the following packages
+
+```bash
+pip3 install pipreqs
+pip3 install pip-tools
+```
+
+Use the following code to build a deterministic `requirements.txt` in the root folder of your project. That will find all
+requirements needed for your project to run which will be useful at a later point when dependency managment tools are going to be used. 
+
+
+```bash
+ pipreqs --savepath=requirements.in && pip-compile
+```
+=== "R"
+
+By typing 
+
+```r
+sessionInfo()
+```
+on your console you can find information about your R script's dependencies. This information is going to be really useful at a later point
 
 
 ## Dependency managment
 
-When working on a code project, one of the key concerns is `dependency management`. `Dependencies` are all of the software components required by your project in order for it to work as intended and avoid runtime errors. This usually means packages/libraries and specific package/library versions
+As seen above when working on a code project, one of the key concerns is `dependency management`.  This usually means dealing with the specific packages/libraries and specific package/library versions needed for a program to run sucessfully
 
-This can be done effectively with dependency management tools 
+This can be done effectively with dependency management tools:
 
 
 === "Python"
@@ -27,7 +62,10 @@ Using a dependency managment tool like [Renv](https://rstudio.github.io/renv/art
 
 ## Data and code lineage
 
+
 Another matter that can help with reproducibility and pays dividends to be aware of is code and data provenance and lineage. 
+
+### Code lineage
 
 Different code can understandably give different results. One way to help navigate this is by having 
 the output of your analysis to also include the git hash of the code that produced it.
@@ -48,6 +86,7 @@ repo <- repository(".")
 print(repository_head(repo))
 ```
 
+### Data lineage
   
 There is also a need to do the same for data: Analysis that starts from a different point might have a different result. 
 The solution is to include a hash of the data or any other way to help identifying the starting point of an analysis. 
