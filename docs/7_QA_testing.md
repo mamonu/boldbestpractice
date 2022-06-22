@@ -79,9 +79,9 @@ So to summarise tests should be:
 including time information in tests (ie fail a test if it takes more than 1 min to finish!) etc
 
 === "R"
-- [x] [testthat](https://testthat.r-lib.org/) is the recommended testing solution.
+- [x] [testthat](https://testthat.r-lib.org/) is the recommended testing solution. You can find an example of how to use it in this [article](https://www.johndcook.com/blog/2013/06/12/example-of-unit-testing-r-code-with-testthat/)
 - [x] [assertr](https://docs.ropensci.org/assertr/) library is very useful for data validation. It provides lots of ready made functions for checking data.
-- [x] [assertthat](https://github.com/hadley/assertthat) package is a more advanced replacement of the `stopifnot()` function
+- [x] [assertthat](https://github.com/hadley/assertthat) package is a more advanced replacement of the base (ie included always in R) `stopifnot()` function
 
 
 
