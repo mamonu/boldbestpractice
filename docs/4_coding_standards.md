@@ -3,15 +3,15 @@
 ## Motivation
 
 !!! cite
-  Code is read more often than it is written.
-  -- Guido van Rossum (creator of Python)
+    Code is read more often than it is written.
+    -- Guido van Rossum (creator of Python)
 
 
 When writing code, we should expect that at some point someone else will need to understand, use and adapt it. This might be yourself in six months time. As such, it is important to empathise with these potential users and write code that is tidy, understandable and does not add unnecessary complexity.
 
 Common barriers to writing readable code include: documentation that is hard to understand or absent, walls of repetitive code that is hard to absorb, or over-complicated code where a simpler solution could be used. Avoiding these issues is essential to make sure that your analysis is reproducible, auditable and assured. Therefore it is our professional responsibility to avoid putting such barriers in place whenever possible.
 
-## Sensible defaults
+### Sensible defaults
 
 This section sets out sensible defaults which you are recommended to follow. They are not strict rules, but are recommended  
 === "Python"
@@ -31,7 +31,7 @@ This section sets out sensible defaults which you are recommended to follow. The
   More info can be found here: [R for Data Science by Hadley Wickham](https://r4ds.had.co.nz). 
   
 
-## Naming conventions
+### Naming conventions
 
 Use meaningful names - well-named functions and variables can remove the need for a comment and make life a 
 little easier for other readers, including your future self. 
@@ -39,13 +39,13 @@ Avoid meaningless names like ‘obj’ / ‘result’ / ‘foo’.
 Don’t be cute or jokey when naming things.
 Use single-letter variables only where the letter represents a well-known mathematical property (e.g. e = mc^2), or where their meaning is otherwise clear.
 
-## Clear and concise code
+### Clear and concise code
 
 Choose clarity over cleverness - use advanced language tricks with care.
 Less code is usually better - but not at the expense of clarity.
 Use code comments well (see above).
 
-## Linters
+### Linters
 
 A linter is a tool that analyses code to check for programmatic and stylistic errors. You should apply a linter to review your code formatting, which will mean your coding style will be consistent across projects and make it easier for others to understand.
 
@@ -55,10 +55,10 @@ For R use Lintr and follow the [Tidyverse Style Guide](https://style.tidyverse.o
 For Python, use [black](https://github.com/psf/black) and follow [PEP8](https://peps.python.org/pep-0008/).
 If possible, set up your linters to run automatically on all pull requests, using Github Actions.
 
-## Error messages
+### Error messages
 Errors will occur, so write your error messages in a way that provide useful information to end users and people working on the code.
 
-## Encoding and CSVs	
+### Encoding and CSVs	
 
 Use unicode for character encoding. This means you should convert inputs that include non-ASCII characters to unicode as early as possible in your data processing workflow. If you are outputting to text files, these should be encoded in `utf-8`.
 
