@@ -30,7 +30,7 @@ It is best to automate your testing as far as possible. If each test needs to be
 !!! info 
       Whenever you are tempted to type something into a print statement, write it as a test instead.
 
-- [x]There is a fine balance to writing tests. Each test that you write makes your code less likely to change inadvertently; but it also can make it harder to change your code on purpose. It’s hard to give good general advice about writing tests, but you might find these points helpful:
+- [x] There is a fine balance to writing tests. Each test that you write makes your code less likely to change inadvertently; but it also can make it harder to change your code on purpose. It’s hard to give good general advice about writing tests, but you might find these points helpful:
 
 - [x] Focus on testing the external interface to your functions - if you test the internal interface, then it’s harder to change the implementation in the future because as well as modifying the code, you’ll also need to update all the tests.
 
