@@ -77,13 +77,24 @@ We can agree on what will be needed in a discusion via the Github [Issues](https
 ###  Proposed R helper
 Similarly for R: [projecttemplate](http://projecttemplate.net/index.html)
 
-`ProjectTemplate` is a system for automating the thoughtless parts of a data analysis project:
+According to its documentation `ProjectTemplate` is a system for automating the thoughtless parts of a data analysis project:
 
-Curating the best R packages.
-Providing simple tools for keeping a log of your work
-Providing template code for:
-- Data diagnostics
-- Data munging
-- Code profiling
-- Unit testing
 
+
+Besides a full project layout it offers that is created by default, it is also possible to create a minimal project structure that only contains the mandatory directories and files. This can be created using `create.project(template='minimal')`, and results in the following structure:
+
+```
+├── project
+├── cache    
+├── README.md      <- The top-level README
+├── data
+├── config
+│   └── global.dcf 
+├── munge
+│   └── 01-A.R
+├── src
+│   └── eda.R
+
+```
+
+It is recommended  to start with this simple template and to change it then to taste.
