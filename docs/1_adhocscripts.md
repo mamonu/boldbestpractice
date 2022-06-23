@@ -8,7 +8,7 @@ Trying something out with perhaps hardcoded minimal inputs and outputs.
 
 Also at this point code may not be well named or organised:
 
-!!! danger
+!!! example "badly named files"
     examples of badly named filenames that do not explain what the code contained in the file is doing:
     ```
     Project1.r  
@@ -20,9 +20,6 @@ Also at this point code may not be well named or organised:
 Certainly this is not work that will be ready for sharing! Hopwfully by following the next steps in the BOLD Best Practices Manifesto an
 analyst will have some ideas on many factors that can be improved and all together create a project that is easy to collaborate with that is
 also reusable and reproducible.
-
-!!! info
-    ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=right }
 
 
 ## Can we do better?
