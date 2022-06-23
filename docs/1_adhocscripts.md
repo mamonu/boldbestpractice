@@ -58,14 +58,18 @@ There is no easy way of answering any of those questions while developing on a J
 You have to rely on your human memory to know which cell could run with/without other cells, which cell is re-runnable, etc. 
 This just doesn’t work. Basically, what most data scientists do when they are unsure about the state of a notebook, is just trigger a complete re-run of the entire notebook, which is a complete waste of time and resources.
 
-Notebooks are useful tools for interactive data exploration which is the dominant activity of a data scientist working on the early phase of a new project or exploring a new technique. But once an approach has been settled on, the focus needs to shift to building a structured codebase around this approach while retaining some ability to experiment. The key is to build the ability to experiment into the pipeline itself. An example would be including a machine learning model registry which allows one to modify parameters at either run-time or build-time and stores results such as performance metrics in a data store. This has the advantage that experiments are always repeatable as they run with versioned code and their results are retained for purposes of comparison, and also as demonstrable markers of progress. 
-
+Notebooks are useful tools for interactive data exploration which is the dominant activity when working on the early phase of a new project or exploring a new technique. But once an approach has been settled on, the focus needs to shift to building a structured codebase around this approach while retaining some ability to experiment. 
 
 ## So what is the solution
 
-For R the use of RStudio, a fully fledged IDE ("Integrated Development Environment").
-For Python VSCode is recommended
+For R the use of [RStudio](https://www.rstudio.com/products/rstudio/), a fully fledged IDE ("Integrated Development Environment") is recommended.
 
+![RStudio](img/rstudioIDE.jpeg){ align=left }
+
+
+For Python VSCode is recommended.
+
+![VSCode](img/pyVSCODEIDE.gif){ align=left }
 
 
 ## Next Steps
