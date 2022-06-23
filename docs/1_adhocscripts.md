@@ -21,6 +21,9 @@ Certainly this is not work that will be ready for sharing! Hopwfully by followin
 analyst will have some ideas on many factors that can be improved and all together create a project that is easy to collaborate with that is
 also reusable and reproducible.
 
+!!! info
+    ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=right }
+
 
 ## Can we do better?
 
