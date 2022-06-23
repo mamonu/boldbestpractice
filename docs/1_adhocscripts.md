@@ -60,14 +60,14 @@ This just doesn’t work. Basically, what most data scientists do when they are 
 
 Notebooks are useful tools for interactive data exploration which is the dominant activity when working on the early phase of a new project or exploring a new technique. But once an approach has been settled on, the focus needs to shift to building a structured codebase around this approach while retaining some ability to experiment. 
 
-## So what is the solution
+## So what is the solution?
 
-For R the use of [RStudio](https://www.rstudio.com/products/rstudio/), a fully fledged IDE ("Integrated Development Environment") is recommended.
+For R the use of [RStudio](https://www.rstudio.com/products/rstudio/), a fully fledged IDE ("Integrated Development Environment") is recommended. Thankfully that should not be a big change to an analyst as its the main way most people use R these days.
 
 ![RStudio](img/rstudioIDE.jpeg){ align=left }
 
 
-For Python VSCode is recommended.
+For Python [VSCode](https://code.visualstudio.com/) is recommended.
 
 ![VSCode](img/pyVSCODEIDE.gif){ align=left }
 

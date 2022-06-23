@@ -2,7 +2,7 @@
 
 ## Motivation
 
-!!! cite
+!!! quote
     Code is read more often than it is written.
     -- Guido van Rossum (creator of Python)
 
