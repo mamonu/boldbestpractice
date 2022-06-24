@@ -1,5 +1,8 @@
 # 6 Reproducible work
 
+
+## Motivation and Background
+
 One of the problems with working with open source software is that it is quite easy to fall into a trap called ‘dependency hell’. Essentially, this occurs when the software we write depends on open source packages, which depend on other open source packages, which can depend on other packages, and on, and on.
 
 All these packages may be written by many different people, and are updated at vastly different timescales. If we fail to take account of this, then we are likely to fail at the first hurdle of reproducibility, and we may find that in a year’s time we are no longer able to reproduce the work that we previously did - or at least not without a lot of trouble. There are several ways we might get on top of this problem and we in this way we are going to try to explain some ways of dealing with this.

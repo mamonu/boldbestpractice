@@ -9,20 +9,30 @@ This is helpful in order to be able to share our analysis  and make it auditable
 
 A version control system neatly stores a history of changes and who made them, so while it is still easy to access them, your working directory is not cluttered by the debris of previous versions that are necessary to keep just in case. Similarly, with version control, there is no need to leave chunks of code commented should you ever need to come back to an old version again.
 
-Finally, version control is invaluable for collaborative projects where different people work on the same code simultaneously and build on each other’s work. It allows the changes made by different people to be tracked and can automatically combine people’s work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as GitHub provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.
+Finally, version control is invaluable for collaborative projects where different people work on the same code simultaneously and build on each other’s work. It allows the changes made by different people to be tracked and can automatically combine people’s work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as `GitHub` provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.
 
-Version control is a systematic approach to record changes made in a file, or set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later when needed. A typical procedure for using version control is as follows:
+
+
+## Difference between Git and Github. 
+
+If you are new to Git and Github, it is worth clarifying the difference between Git and Github. Git is the software that looks after the version control of code, whereas Github is the website on which you publish and share your version controlled code. In practice this means you use Git to track versions of your code, and then submit those changes to Github.
+
+
+## So what you can do with  Git? . 
+
+
 
 - [x] Create files - these may contain text, code or both.
 - [x] Work on these files, by changing, deleting or adding new content.
 - [x] Create a snapshot of the file status (also known as version) at this time.
 
 
-
 This process of creating a snapshot is described as a “commit”. As you keep saving your work by adding changes, you make more and more snapshots. 
 You can think of these as saving versions of these files while documenting their history. If you need to go back to a previous version of a file because of a mistake, or if you changed your mind about a previous update, you can access the file in your preferred version, or return your entire project to a past state.
 
 ![](https://github.com/mamonu/boldbestpractice/raw/main/docs/img/gitcommits.png)
+
+
 
 
 ## Non-Linear Development of Your Project with “Branches”

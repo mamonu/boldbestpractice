@@ -1,6 +1,8 @@
 # 7 QA & testing
 
 
+## Motivation and Background
+
 Testing is a way of quality assuring our work when creating software that is important. 
 Quality means a lot of things and for the scope of this document it will mainly mean reliability.
 
