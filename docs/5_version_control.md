@@ -2,20 +2,22 @@
 
 
 
-## Motivation and Background
+## Motivation
 
 Version control helps us understand what changes we made in the past or why we did a specific analysis in the way we did it, even weeks or months later. With the help of comments and commit messages, each version can explain what changes it contains compared to the previous versions. 
 This is helpful in order to be able to share our analysis  and make it auditable or reproducible - which is good scientific practice.
 
 A version control system neatly stores a history of changes and who made them, so while it is still easy to access them, your working directory is not cluttered by the debris of previous versions that are necessary to keep just in case. Similarly, with version control, there is no need to leave chunks of code commented should you ever need to come back to an old version again.
 
-Finally, version control is invaluable for collaborative projects where different people work on the same code simultaneously and build on each other’s work. It allows the changes made by different people to be tracked and can automatically combine people’s work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as `GitHub` provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.
+Finally, version control is invaluable *for collaborative projects where different people work on the same code simultaneously* and build on each other’s work. It allows the changes made by different people to be tracked and can automatically combine people’s work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as `GitHub` provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.
 
 
 
 ## Difference between Git and Github. 
 
 If you are new to Git and Github, it is worth clarifying the difference between Git and Github. Git is the software that looks after the version control of code, whereas Github is the website on which you publish and share your version controlled code. In practice this means you use Git to track versions of your code, and then submit those changes to Github.
+
+If its not possible to use the command line to use git at all it is worth using Github via its web interface .Having saved work at a specific point in time is always useful
 
 
 ## So what you can do with  Git? . 
@@ -124,5 +126,3 @@ Remember that it’s always easier (for both you and your reviewers) if you comm
 - explore what you can do with git and get the command you need with [gitexplorer](https://gitexplorer.com/)
 
 
-*[MYNEWBRANCH] : Put your branch name here!
-*[FILES] : Put your file name/names here!

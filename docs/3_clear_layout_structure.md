@@ -1,27 +1,30 @@
 # 3 Use a clear layout structure
 
-The next step above doing adhoc exploratory work is to use the directory hierarchy to organise the project
-
-## Use directory hierarchy
-
-
-- Some proposed suggestions are to have a README file at the root of the project where a user can find out more 
-about the project in hand. Perhaps also the set of commands needed to run an analysis script.
-
-- There should be separate directories for the analysis inputs, code itself & the outputs. This will also help at a later point as it will make data breaches less likely.
-
- - There needs to be a separate directory for ‘ad hoc’ exploratory code/notebooks like the ones discussed that are probably so that they don’t interfere in anyway with the main code.
-
-
-## Use meaningful folder/file names 
+## Motivation
 
 A well-defined, standard project structure means that a newcomer can begin to understand an analysis without digging in to extensive documentation. It also means that they don't necessarily have to read 100% of the code before knowing where to look for very specific things.
 
 Well organized code tends to be self-documenting in that the organization itself provides context for your code without much overhead. People will thank you for this because they can:
 
-Collaborate more easily with you on this analysis
-Learn from your analysis about the process and the domain
-Feel confident in the conclusions at which the analysis arrives
+- [x] Collaborate more easily with you on this analysis
+- [x] Learn from your analysis about the process and the domain
+- [x] Feel confident in the conclusions at which the analysis arrives
+
+
+
+## Use directory hierarchy
+
+Some proposed basic suggestions are:
+
+- [x] to have a README file at the root of the project where a user can find out more 
+about the project in hand. Perhaps also the set of commands needed to run an analysis script.
+
+- [x] There should be separate directories for the analysis inputs, code itself & the outputs. This will also help at a later point as it will make data breaches less likely.
+
+- [x] There needs to be a separate directory for ‘ad hoc’ exploratory code/notebooks (like the ones discussed in a previous section) so that they don’t interfere in any way with the main code.
+
+
+## Use meaningful folder/file names 
 
 A very detailed example of how a project could look (example for a Python project)
 ```
