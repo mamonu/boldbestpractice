@@ -11,7 +11,11 @@ A version control system neatly stores a history of changes and who made them, s
 
 Finally, version control is invaluable *for collaborative projects where different people work on the same code simultaneously* and build on each other’s work. It allows the changes made by different people to be tracked and can automatically combine people’s work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as `GitHub` provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.
 
-In BOLD we would like to encourage sharing the code used to produce the data analysis we produce as this enhances accessibility and reuse by others,.
+In BOLD we would like to encourage sharing the code used to produce the data analysis we produce as this enhances accessibility and reuse by others. In this way other analysts can:
+
+- [x] benefit from your work and build on it
+- [x] learn from your experiences
+- [x] find uses for your code which you had not thought of!
 
 ## Difference between Git and Github. 
 
@@ -22,10 +26,10 @@ If you are new to Git and Github, it is worth clarifying the difference between 
 One of the attributes of git is that usually used through a CLI (Command Line Interface) on a console window. Not all people
 are comfortable with the command line or sometimes the computers they work on dont allow this (!)
 
-If its not possible to use the command line to use git at all it is worth using Github via its web interface.
-Having saved work at a specific point in time is always useful.
+If its not possible to use the command line to use git it is very much worth using Github via its web interface.
+Having saved work at specific poinst in time is always useful.
 
-Github also offers helpful tools for project managment in a repository. Some of them are:
+Github also offers some very helpful tools for project managment in a repository through the web interface. Some of them are:
 
 - [x] the `GitHub Issues` tracker that can be used in order to track work, feedback, tasks, or bugs. [Here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) is how you can easily create an issue in a repository.
       
@@ -101,6 +105,13 @@ graph TB
 
 ## Git recommendations
 
+
+!!! info inline end "Commit little and often"
+    You should commit often and with small changes. Some of the benefits of doing this :
+    - [x] you identify bugs more easily because fewer things are changing at the same time
+    - [x] you can react quickly to urgent fixes, such as updates and last minute changes
+
+
 - [x] Make your project version controlled by initialising a Git repository in its directory using `git init` 
 - [x] Add and commit all your files to the repository using `git add .` then `git commit -m "my informative message here` 
 - [x] Commit messages should be meaningful and informative
@@ -121,6 +132,13 @@ Code review provides additional assurance that code logic is correct, as well as
 Code reviews should be initiated through the creation of a pull request. The review should typically involve the reviewer pulling the code to their local machine, testing it, and leaving comments in the pull request.
 
 Remember that it’s always easier (for both you and your reviewers) if you commit and push your changes regularly. You should merge branches into the master regularly so that reviewers review little and often, rather than attempting to review your entire codebase all at once.
+
+
+
+
+
+
+
 
 
 

@@ -62,8 +62,11 @@ For R use Lintr and follow the [Tidyverse Style Guide](https://style.tidyverse.o
 For Python, use [black](https://github.com/psf/black) and follow [PEP8](https://peps.python.org/pep-0008/).
 If possible, set up your linters to run automatically on all pull requests, using Github Actions.
 
-### Error messages
-Errors will occur, so write your error messages in a way that they offer useful information to end users and people working on the code.
+### Logging
+
+- [x] Misuse or failure in the code produces informative error messages. Errors will occur, so write your error messages in a way that they offer useful information to end users and people working on the code.
+- [x] Code configuration is recorded when the code is run.
+- [x] Pipeline route is recorded if decisions are made in code. That can help with possible debugging .
 
 ### Encoding and CSVs	
 
