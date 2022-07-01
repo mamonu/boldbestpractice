@@ -3,14 +3,27 @@
 
 ## Motivation and Background
 
-One of the problems with working with open source software is that it is quite easy to fall into a trap called ‘dependency hell’. Essentially, this occurs when the software we write depends on open source packages, which depend on other open source packages, which can depend on other packages, and on, and on.
 
-All these packages may be written by many different people, and are updated at vastly different timescales. If we fail to take account of this, then we are likely to fail at the first hurdle of reproducibility, and we may find that in a year’s time we are no longer able to reproduce the work that we previously did - or at least not without a lot of trouble. There are several ways we might get on top of this problem and we in this way we are going to try to explain some ways of dealing with this.
 
+When analysts employ transparency in their research - in other words, when they properly document and share the data and processes associated with their analyses - the broader community is able to save valuable time when reproducing or building upon published results. Often, data or code from prior projects will be re-used by new analysts to verify old findings or develop new analyses.
+
+By following guidelines for reproducibility, we can easily communicate our work with different stakeholders. This aspect of reproducibility increases the usefulness of our work by enabling others to also easily build on our results, and re-use our materials. This ensures the continuity of a research idea and can even find fresh applications in other contexts. 
+
+Another gain from reproducibility is knowledge transfer. Many times we will find an analyst that had performed an analysis at some point has moved to a new role.By having work organised with reproducibility in mind this becomes less of an issue. It is very helpful for new joiners as well as reproducible work offers what is known as`paradata` : an information trail that can be quite helpful when trying to understand a new codebase.
+
+
+!!! info
+    Reproducible: A result is reproducible when the same analysis steps performed on the same dataset consistently produces the same answer.
+
+
+An short article in Science that can be found in this [link](https://www.science.org/doi/10.1126/science.354.6308.142) is a very good summary of the benefits of reproducibility.
 
 ## Dependencies
 
 `Dependencies` are all of the software components required by your project in order for it to work as intended and avoid runtime errors.
+One of the problems with working with open source software is that it is quite easy to fall into a trap called ‘dependency hell’. Essentially, this occurs when the software we write depends on open source packages, which depend on other open source packages, which can depend on other packages, and on, and on.
+
+All these packages may be written by many different people, and are updated at vastly different timescales. If we fail to take account of this, then we are likely to fail at the first hurdle of reproducibility, and we may find that in a year’s time we are no longer able to reproduce the work that we previously did - or at least not without a lot of trouble. There are several ways we might get on top of this problem and we in this way we are going to try to explain some ways of dealing with this.
 
 
 === "Python"

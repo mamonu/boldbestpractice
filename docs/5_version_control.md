@@ -107,9 +107,8 @@ graph TB
 
 
 !!! info inline end "Commit little and often"
-    You should commit often and with small changes. Some of the benefits of doing this :
-    - [x] you identify bugs more easily because fewer things are changing at the same time
-    - [x] you can react quickly to urgent fixes, such as updates and last minute changes
+    You should commit often and with small changes. One benefit of doing this is that you can identify possible bugs more easily because fewer things are changing at the same time. 
+
 
 
 - [x] Make your project version controlled by initialising a Git repository in its directory using `git init` 
