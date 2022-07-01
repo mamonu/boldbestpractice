@@ -60,3 +60,7 @@ For Python [VSCode](https://code.visualstudio.com/) is recommended.
 While just getting something to work in order to prove a point is good as far as running an adhoc program is concerned, 
 there are a few ways of improving the work we can produce. Hopefully you will find some interesting suggestions on how to do this in the following sections.
 
+!!! info inline end "what we want to avoid"
+    ![](img/research_comic_phd.gif){ align=left }
+    image courtesy of [Piled Higher and Deeper / PHDComics](https://phdcomics.com/comics/aboutcomics.php)
+

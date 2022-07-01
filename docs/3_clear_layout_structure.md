@@ -12,7 +12,7 @@ Well organized code tends to be self-documenting in that the organization itself
 
 
 
-## Use directory hierarchy
+## Use directory hierarchy 
 
 Some proposed basic suggestions are:
 
@@ -22,6 +22,23 @@ about the project in hand. Perhaps also the set of commands needed to run an ana
 - [x] There should be separate directories for the analysis inputs, code itself & the outputs. This will also help at a later point as it will make data breaches less likely.
 
 - [x] There needs to be a separate directory for ‘ad hoc’ exploratory code/notebooks (like the ones discussed in a previous section) so that they don’t interfere in any way with the main code.
+
+
+## What to include on a README file?
+
+When working on a collaborative or open coding project, it’s good practice to describe an overview of your project in a README file. This allows users or developers to grasp the overall goal of your project. As well as a description of the project, it might include examples using your code or references to other associated projects. This file can be any text type, including .txt, .md,
+
+We suggest the following for a good README:
+
+- [x] Short statement of intent
+
+- [x] Longer description describing the problem that your project solves and how it solves it
+
+- [x] Basic installation instructions or link to installation guide
+
+- [x] Example usage
+
+- [x] Links to related projects
 
 
 ## Use meaningful folder/file names 
@@ -67,6 +84,10 @@ A very detailed example of how a project could look (example for a Python projec
     └── visualization <- Scripts to create exploratory and results oriented visualizations
         └── visualize.py
 ```
+
+
+!!! info inline end "use meaningful names"
+    ![](img/monalisafinalll.png){ align=left }
 
 
 ### Proposed Python helper

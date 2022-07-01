@@ -17,23 +17,6 @@ Functions enable programmers to break down or decompose a problem into smaller p
 In this way code becomes easier to reason and to follow through in analysis scripts. It also provides a way of changing code once if the function inner-workings need to change instead of many repeated times.
 
 
-### Function Arguments
-Information can be passed into functions as arguments.
-Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.
-
-=== "Python"
-
-``` py
-def FtoC (temp_in_fahr):
-  celsius = (temp_in_fahr - 32) * (5/9)
-  return celcius
-```
-
-=== "R"
-
-``` r
-FtoC <- function(temp_in_fahr) {(temp_in_fahr - 32) * (5 / 9)}
-```
 
 You can find some really helpful pointers on how to create functions in R in the following DASD R Training :
 
