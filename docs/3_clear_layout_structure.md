@@ -11,6 +11,10 @@ Well organized code tends to be self-documenting in that the organization itself
 - [x] Feel confident in the conclusions at which the analysis arrives
 
 
+!!! info "use meaningful names"
+    ![](img/monalisafinalll.png){ align=left }
+    image courtesy of [Nathan W Pyle](https://www.nathanwpyle.art/about)
+
 
 ## Use directory hierarchy 
 
@@ -85,9 +89,6 @@ A very detailed example of how a project could look (example for a Python projec
         └── visualize.py
 ```
 
-
-!!! info inline end "use meaningful names"
-    ![](img/monalisafinalll.png){ align=left }
 
 
 ### Proposed Python helper

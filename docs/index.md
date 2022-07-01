@@ -17,7 +17,6 @@ BOLD aims to enable better-evidenced, joined-up and more effective cross-governm
 Whilst incredibly powerful, the approaches discussed should not be seen as panacea for all the difficulties of producing analysis.
 However, implementing even a few of these techniques can drive benefits in auditability, speed, quality, and knowledge transfer.
 
-
 This is a "live" document that can be updated when it is decided
 that something needs to be added so be sure to check it regularly / have it in your bookmarks.
 
