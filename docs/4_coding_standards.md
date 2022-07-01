@@ -13,7 +13,9 @@ Common barriers to writing readable code include: documentation that is hard to 
 
 ### Sensible defaults
 
-This section sets out sensible defaults which you are recommended to follow. They are not strict rules, but are recommended  
+This section sets out sensible defaults which you are recommended to follow. They are not strict rules, but are recommended points that
+you are encouraged to know about
+
 === "Python"
 
 
@@ -43,7 +45,12 @@ Use single-letter variables only where the letter represents a well-known mathem
 
 Choose clarity over cleverness - use advanced language tricks with care.
 Less code is usually better - but not at the expense of clarity.
-Use code comments well (see above).
+
+
+### Comments / documentation
+
+Comments are lines of text in source code files that typically aren’t executed as part of the program. They are small notes or annotations written by those working on the code. Often, they provide context or explain the reasoning behind implementation decisions.
+Comments are essential to help those working on the code in the future to understand any non-obvious details around how and why the code has been written in a particular way.
 
 ### Linters
 
@@ -56,7 +63,7 @@ For Python, use [black](https://github.com/psf/black) and follow [PEP8](https://
 If possible, set up your linters to run automatically on all pull requests, using Github Actions.
 
 ### Error messages
-Errors will occur, so write your error messages in a way that provide useful information to end users and people working on the code.
+Errors will occur, so write your error messages in a way that they offer useful information to end users and people working on the code.
 
 ### Encoding and CSVs	
 

@@ -17,7 +17,7 @@ An analyst can work in an exploratory mode, investigating processes and building
 Usually work in this step is comprised of single file/ page programs that are in one file also known as `scripts` 
 
 !!! info
-    the focus on this step should be on learning and reducing uncertainties. 
+    the focus on this first step should be on learning and reducing uncertainties. 
     Its an important first step on learning how to automate processes via programming and 
     not doing things by hand / manually. 
 
@@ -58,6 +58,5 @@ For Python [VSCode](https://code.visualstudio.com/) is recommended.
 
 
 While just getting something to work in order to prove a point is good as far as running an adhoc program is concerned, 
-in order to become more efficient it is good practice to not have repeating code. 
+there are a few ways of improving the work we can produce. Hopefully you will find some interesting suggestions on how to do this in the following sections.
 
-A way of not having parts of code being written again and again many times is to learn about functions and use them. These are covered in section [2](2_reusable_code.md)

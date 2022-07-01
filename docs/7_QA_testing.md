@@ -42,8 +42,24 @@ It is best to automate your testing as far as possible. If each test needs to be
 
 - [x] Always write a test when you discover a bug. You may find it helpful to adopt the test-first philosophy. There you always start by writing the tests, and then write the code that makes them pass. This reflects an important problem solving strategy: start by establishing your success criteria, how you know if you’ve solved the problem.
 
+!!! note inline end
+So to summarise tests should be:
+     
+- [x] Fast & Independent
+  
+- [x] Repeatable (deterministic)
+  
+- [x] Self-validating (no manual steps)
 
+- [x] Thorough (How much do you trust they cover everything?)
 
+The most common pattern for writing these tests is:
+
+- [x] Arrange - set up any pre-requisites for your test
+
+- [x] Act - run the code that you are testing
+
+- [x] Assert - verify that the code performed the expected action
 
 
 ## Consider how long it takes your tests to run
@@ -61,16 +77,7 @@ It is important to provide documentation that describes how to run the tests, bo
 - Ideally, you would provide scripts to set up and configure any resources that are needed.
 
 
-!!! note
-So to summarise tests should be:
-     
-- [x] Fast & Independent
-  
-- [x] Repeatable (deterministic)
-  
- - [x] Self-validating (no manual steps)
 
- - [x] Thorough (How much do you trust they cover everything?)
 
 ## Language specific testing tips
 

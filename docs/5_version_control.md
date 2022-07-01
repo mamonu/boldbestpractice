@@ -11,36 +11,46 @@ A version control system neatly stores a history of changes and who made them, s
 
 Finally, version control is invaluable *for collaborative projects where different people work on the same code simultaneously* and build on each other’s work. It allows the changes made by different people to be tracked and can automatically combine people’s work while saving a great deal of painstaking effort to do so manually. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies. Moreover, version control hosting services such as `GitHub` provide a way to communicate and collaborate in a more structured way, such as in pull requests, code reviews, and issues.
 
-
+In BOLD we would like to encourage sharing the code used to produce the data analysis we produce as this enhances accessibility and reuse by others,.
 
 ## Difference between Git and Github. 
 
 If you are new to Git and Github, it is worth clarifying the difference between Git and Github. Git is the software that looks after the version control of code, whereas Github is the website on which you publish and share your version controlled code. In practice this means you use Git to track versions of your code, and then submit those changes to Github.
 
-If its not possible to use the command line to use git at all it is worth using Github via its web interface .Having saved work at a specific point in time is always useful
+## Can I only use the Github web interface?
+
+One of the attributes of git is that usually used through a CLI (Command Line Interface) on a console window. Not all people
+are comfortable with the command line or sometimes the computers they work on dont allow this (!)
+
+If its not possible to use the command line to use git at all it is worth using Github via its web interface.
+Having saved work at a specific point in time is always useful.
+
+Github also offers helpful tools for project managment in a repository. Some of them are:
+
+- [x] the `GitHub Issues` tracker that can be used in order to track work, feedback, tasks, or bugs. [Here](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) is how you can easily create an issue in a repository.
+      
+- [x] `Github Discussions` : A place where ideas can be discussed that perhaps can then become tasks to do. [Here](https://docs.github.com/en/discussions/quickstart) is a quickstart guide on Github Discussions
 
 
-## So what you can do with  Git? . 
 
+## So how you can have version control with Git/Github? . 
 
+You can
 
 - [x] Create files - these may contain text, code or both.
 - [x] Work on these files, by changing, deleting or adding new content.
 - [x] Create a snapshot of the file status (also known as version) at this time.
 
 
-This process of creating a snapshot is described as a “commit”. As you keep saving your work by adding changes, you make more and more snapshots. 
-You can think of these as saving versions of these files while documenting their history. If you need to go back to a previous version of a file because of a mistake, or if you changed your mind about a previous update, you can access the file in your preferred version, or return your entire project to a past state.
+This process of creating a snapshot is described as a “commit”. As you keep saving your work by adding changes, you make more and more snapshots. You can think of these as saving versions of these files while documenting their history. If you need to go back to a previous version of a file because of a mistake, or if you changed your mind about a previous update, you can access the file in your preferred version, or return your entire project to a past state.
 
 ![](https://github.com/mamonu/boldbestpractice/raw/main/docs/img/gitcommits.png)
-
-
 
 
 ## Non-Linear Development of Your Project with “Branches”
 
 
-So you have your project and you want to add something new or try something out before reflecting the changes in the main project folder. To add something new, you can continue editing your files and save them with the proposed changes. Suppose you want to try something without reflecting the changes in the central repository. In that case, you can use the “branching” feature of more advanced version control systems such as Git. A branch creates a local copy of the main repository where you can work and try new changes. Any work you do on your branch will not be reflected on your main project (referred to as your main branch) so it remains secure and error-free. At the same time, you can test your ideas and troubleshoot in a local branch.
+So you have your project and you want to add something new or try something out before reflecting the changes in the main project folder. To add something new, you can continue editing your files and save them with the proposed changes. Suppose you want to try something without reflecting the changes in the central repository. In that case, you can use the “branching” feature . A `branch` creates a local copy of the main repository where you can work and try new changes. Any work you do on your branch will not be reflected on your main project (referred to as your main branch) so it remains secure and error-free. At the same time, you can test your ideas and troubleshoot in a local branch.
 
 ![](https://github.com/mamonu/boldbestpractice/raw/main/docs/img/git-graph.png)
 
@@ -104,9 +114,6 @@ graph TB
 
 
 
-
-
-
 ## Code review
 
 Code review provides additional assurance that code logic is correct, as well as providing feedback on code and problem structuring. For smaller projects, the review only needs to be a simple read-through and sanity check.
@@ -119,6 +126,8 @@ Remember that it’s always easier (for both you and your reviewers) if you comm
 
 ## Git turorials and interesting recommended sources of information
 
+
+- [github quickstart tutorial](https://docs.github.com/en/get-started/quickstart/hello-world) from Github documentation
 - Learn git with an [interactive git simulator](https://learngitbranching.js.org/) . Chapter 1/2/3 of the "Introduction Sequence" recommended for beginners. After that feel free to discover other less essential but still useful information on how to use git. 
 - Did things go horribly wrong while using git? [Dangitgit](https://dangitgit.com/en) to the rescue.
 - Want to see if you understand branches well? [Here](https://questions.wizardzines.com/git-branches.html) are some questions to test your understanding
